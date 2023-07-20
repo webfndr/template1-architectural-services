@@ -6,10 +6,17 @@ const VideoComponent = () => {
 
   return (
     <div>
-      <video controls width="100%" height="100%" autoPlay loop>
+      <video controls width="100%" height="100%" autoPlay muted loop>
         <source src={videoUrl} type="video/mp4" />
         {/* Add more <source> tags for other video formats if needed */}
       </video>
+      <div className="intro-title">
+        <p>
+          We Are<br />
+          A Possibilities<br />
+          Company
+        </p>
+      </div>
     </div>
   );
 };
