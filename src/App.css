@@ -16,3 +16,31 @@ video::-webkit-media-controls-enclosure {
 video::-webkit-media-controls-panel {
   display: none !important;
 }
+
+/* content in the images */
+.video-wrapper {
+  position: relative; /* Set the wrapper as a reference for absolute positioning */
+}
+
+.intro-title {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 6rem;
+  text-align: left;
+  line-height: 1;
+}
+
+.intro-title p {
+  margin: 0;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .intro-title {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
