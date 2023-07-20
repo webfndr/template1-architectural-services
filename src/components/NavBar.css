@@ -9,6 +9,7 @@
     padding: 0 40px;
     box-sizing: border-box;
     height: 100vh;
+    display: block;
 }
 .navbar-logo i {
     font-size: 2rem;

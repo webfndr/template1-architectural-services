@@ -7,13 +7,8 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-<<<<<<< HEAD
     <>
       <NavBar />
-=======
-    <div>
-      <ModalNavbar />
->>>>>>> d81f557921fccd8cd0ce14f084eec512c2e836f1
       <VideoComponent />
     </>
   );
