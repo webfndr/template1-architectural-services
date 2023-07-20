@@ -12,7 +12,6 @@ const ModalNavbar = () => {
   return (
     <nav>
       <div className="navbar-container">
-        <div className="logo">Logo test nga tanga mo</div>
         <div className="hamburger-icon" onClick={toggleModal}>
           &#9776;
         </div>
@@ -26,7 +25,6 @@ const ModalNavbar = () => {
             </span>
             <ul className="nav-links">
               <li>Home</li>
-              <li>About</li>
               <li>Contact</li>
               {/* Add more navigation links as needed */}
             </ul>
