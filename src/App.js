@@ -1,13 +1,16 @@
 import './App.css';
 import React from 'react';
 import VideoComponent from './components/VideoComponent';
+import NavBar from './components/NavBar';
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <>
+      <NavBar />
       <VideoComponent />
-    </div>
+    </>
   );
-};
+}
+ 
 
 export default App;
