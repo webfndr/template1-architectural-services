@@ -12,7 +12,7 @@ const ModalNavbar = () => {
   return (
     <nav>
       <div className="navbar-container">
-        <div className="logo">Logo</div>
+        <div className="logo">Logo test nga tanga mo</div>
         <div className="hamburger-icon" onClick={toggleModal}>
           &#9776;
         </div>
